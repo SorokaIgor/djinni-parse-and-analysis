@@ -2,8 +2,8 @@ Hello!
 This is my first mini project!
 
 
-A few words about project:
-1. I used next Libraries 
+A few words about project!
+1. I used next Libraries: 
     - beautiful soup
     - cleantext
     - nltk
