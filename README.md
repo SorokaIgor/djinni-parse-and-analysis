@@ -18,7 +18,14 @@ A few words about project:
 4. I left a file to show you what information we will look for in the djinni.
 ![image](https://user-images.githubusercontent.com/110998159/215090468-8f097699-4d1a-4b8f-ac48-784baf389233.png)
 
-!!! TO START PROGRAMM !!!
+!!! TO START PROGRAMM please INSTALL requirements.txt !!!
+
+Install packages with pip: -r requirements.txt
+The following command will install the packages according to the configuration file requirements.txt.
+
+$ pip install -r requirements.txt
+
+
 1. OPEN main1.py and run it.
 2. After programm finished work you could open /analysis/dataAnalysis.ipynb and run it all( or make comb Ctrl+Alt+Shift+Enter for jupyter notebook in Pycharm).
 You will see next visualization of taken information.
