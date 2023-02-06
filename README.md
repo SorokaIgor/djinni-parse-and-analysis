@@ -25,8 +25,10 @@ The following command will install the packages according to the configuration f
 
 $ pip install -r requirements.txt
 
+You can also install virtual environment. If you don't know how you can click to this link https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/ i hope it will help you.
 
-1. OPEN main1.py and run it.
+
+1. OPEN main1.py and run it by using run command python main1.py
 2. After programm finished work you could open /analysis/dataAnalysis.ipynb and run it all( or make comb Ctrl+Alt+Shift+Enter for jupyter notebook in Pycharm).
 You will see next visualization of taken information.
 Most popular frameworks for every lvl(junior, middle, senior).
