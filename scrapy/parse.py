@@ -93,12 +93,13 @@ def check_lvl(exp_lvl: int) -> str:
 
 
 def find_experience_lvl(page_soup: BeautifulSoup) -> int:
-    find_exp = page_soup.find("ul", class_="job-additional-info--body").text.split()[-4]
-    clean_exp_field = re.sub(r"([!@#$:,-])", "r", find_exp)
-    if clean_exp_field.isalpha():
-        clean_exp_field = 0
-    print(clean_exp_field)
-    return int(clean_exp_field)
+    find_exp = page_soup.select_one(
+        "ul.job-additional-info--body li:last-child div.job-additional-info--item-text"
+    ).get_text().strip()
+    if find_exp.split()[0].isdigit():
+        return int(find_exp.split()[0])
+    else:
+        return 0
 
 
 def find_views(page_soup: BeautifulSoup) -> int:
